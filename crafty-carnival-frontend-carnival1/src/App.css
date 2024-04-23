@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #e0f2f1;
+}
+
+.container-fluid {
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-email {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.sign-out-btn {
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-out-btn:hover {
+  background-color: #e68a00;
+}
+
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navigation ul li {
+  margin-right: 20px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navigation ul li a:hover {
+  color: #ff9900;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e68a00;
+}
+
+.admin-btn {
+  background-color: #333;
+}
+
+.admin-btn:hover {
+  background-color: #555;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .user-profile {
+    margin-top: 10px;
+  }
+
+  .navigation ul {
+    flex-direction: column;
+  }
+
+  .navigation ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+}
